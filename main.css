@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.abovenav{
+    background-color:white;
+    /* border: 2px solid red; */
+    height: 150px;
+    width: 100%;
+}
+
+
+.imgs ul{
+    display: flex;
+    flex-direction: row;
+}
+.imgs ul li a img{
+    width: 30px;
+    height: 30px;
+}
+.imgs ul li a{
+    padding: 2px 7px;
+    margin: 0px 9px;
+}
+.imgs ul li {
+    list-style: none;
+    margin-top: 60px;
+}
+
+.imgs ul{
+    margin-left: 50px;
+
+}
+.lc{
+    margin-left: 310px;
+    margin-top: 51px;
+    font-size: 2.5rem;
+    color: green;
+    font-family: 'Anton', sans-serif;
+}
+/* input{
+    margin-top: 45px;
+    padding: 12px;
+} */
+.input {
+    margin-top: 63px;
+    padding: 6px;
+    margin-left: 240px;
+    border-radius: 14px;
+    text-align: center;
+    font-size: 16px;
+}
+.bton {
+    margin-top: 66px;
+    padding: 2px;
+    width: 80px;
+    margin-left: 6px;
+    height: 32px;
+    border-radius: 14px;
+    color: white;
+    background: green;
+}
+.bton:hover{
+    background-color:green;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+
+header{
+    background-color:#4e9525;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding: 16px;
+    margin: 13px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    /* font-family: 'PT Sans Narrow', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+.ul{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-left: 300px;
+    margin-top: 27px;
+    justify-content: center;
+}
+.nav ul li a:hover{
+    color: rgb(247, 242, 0);
+    font-size: 21px;
+}
+
+.s-1::before{
+    /* background: url('/forest.jpg') no-repeat center center/cover; */
+  
+    position: absolute;
+    top: 238px;
+    left: 0;
+    right: 0;
+    height: 510px;
+    bottom: 0;
+    content: '';
+    opacity: 0.1;
+    background: rgb(24, 23, 23);
+    z-index: -1;
+
+}
+
+
+.s-1{
+    height: 500px;
+    width: 100%;
+    border: 1px solid ;
+    background: url('forest.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: fixed; */
+    opacity: 0.9;
+
+}
+.first {
+    margin-left: 164px;
+    margin-top: 105px;
+    font-size: 19px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.sec {
+    margin-left: 158px;
+    font-weight: bolder;
+    width: 403px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+
+.lm{
+    margin-left: 158px;
+    padding: 9px;
+    font-size: 17px;
+    color: white;
+    background-color: green;
+    /* text-shadow: 2px 2px 2px red; */
+}
+.lm:hover{
+      cursor: pointer;
+}
+
+
+
+
+
+
+.pic1{
+    background-color: gray;
+    height: 330px;
+    background-color: white;
+    margin-left: 16px;
+    /* margin-right: 14px; */
+    margin-bottom: 60px;
+
+    box-shadow:0 10px 30px 25px rgb(0 0 0 / 15%);
+}
+.pic2{
+    height: 330px;
+    background-color: white;
+    margin-bottom: 60px;
+
+}
+.para{
+    padding: 6px 92px 0px 103px;
+}
+.para2{
+    padding: 23px 20px 0px 20px;
+}
+
+.headings{
+    margin-top: 60px;
+    padding: 25px;
+}
+
+.mybtn {
+    width: 115px;
+    margin-left: 38px;
+    margin-top: 8px;
+    height: 39px;
+}
+
+
+
+.pic{
+    height: 625px;
+    margin-left: 34px;
+    margin-bottom: 50px;
+}
+.box{
+    height: 625px;
+     
+}
+.pic3{
+    height: 625px;
+    width: 100%;
+}
+
+
+.lines{
+    padding: 20px 21px;
+    margin: 10px 10px;
+    /* background-color: rgb(153, 138, 138); */
+    box-shadow:0 10px 30px 25px rgb(0 0 0 / 15%);
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: 1s;
+
+}
+.lines:hover{
+    /* background-image: linear-gradient(to right,yellow,blue,red,orange,purple,grey,salmon); */
+    background-color: green;
+    
+}
+.lines a{
+    text-decoration:none;
+    color: black;
+    /* font-weight: bold; */
+    font-size: 26px;
+}
+.lines a:hover{
+    text-decoration: none;
+    color: yellow;
+    /* background-color: yellowgreen; */
+}
+
+.one{
+    color: green;
+    margin-top: 36px;
+    margin-left: 16px;
+    font-weight: bold;
+}
+.two{
+    width: 333px;
+    margin-left:16px;
+    margin-top: 6px;
+
+}
+
+
+
+.gallery{
+    height: 100%;
+    width: 100%;
+
+}
+.left{
+    margin-left: 23px;
+    box-shadow:0 10px 30px 25px rgb(0 0 0 / 15%);
+}
+.gale{
+    box-shadow:0 10px 30px 25px rgb(0 0 0 / 15%);
+}
+
+.right{
+    margin-left: -22px;
+    box-shadow:0 10px 30px 25px rgb(0 0 0 / 15%);
+}
+.Gallery{
+    height: 100%;
+    width: 100%;
+}
+
+
+.color{
+    color: #4e9525;
+    padding-top: 50px;
+}
+.happy{
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.in{
+    box-shadow: 1px 2px 2px 2px rgb(235, 228, 228);
+    margin-bottom: 56px;
+    width: 90%;
+    border-radius: 6px;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: 1s;
+    
+}
+.in:hover
+{
+    background-color: rgb(231, 202, 191);
+    font-size: 18px;
+    color: blueviolet;
+}
+.roger{
+    color: #000000;
+}
+.market{
+    color: #4E9525;
+padding-bottom: 16px;
+}
+.lft{
+    margin-left: 56px;
+}
+.rgt{
+margin-left: -56px;}
+
+
+.last{
+    background-color: #252525;
+    color: white;
+    height: 500px;
+}
+
+.lastpara{
+    padding: 23px 15px 12px 55px;
+    margin: 9px 3px 4px 9px;
+    width: 339px;
+    color: rgba(255,255,255,.7);
+}
+.lastheading{
+     padding: 2px 2px 2px 2px;
+    margin: 84px -77px 0px 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-weight: bold; */
+}
+.lastanker{
+
+    padding: 29px 86px 0px 130px;
+    margin: 9px 0px 21px 4px;
+    width: 357px;
+}
+.lastanker:hover{
+    color: green;
+}
+.lastanker a{
+    color: white;
+}
+.lastanker a:hover{
+
+    font-size: 22px;
+    color: green;
+    text-decoration: none;
+}
+.dabba{
+    width: 300px;
+    
+}
+.lastright{
+                margin-left: -107px;
+}
+.lastleft{
+    margin-left: 35px;
+}
+.teesradabba{
+    margin-left: -75px;
+}
+.footer {
+    padding: 36px 14px;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 335px;
+}
